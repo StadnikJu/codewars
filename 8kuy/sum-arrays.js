@@ -1,28 +1,26 @@
 
-//let arr = [-1, 54, 64, 2, 4];
+let arr = [-1, 54, 64, 2, 4];
 
-// function sum (numbers) {
+function sum (numbers) {
 
-//     if(numbers.length === 0) {
-//         return 0;
-//     } 
-//     let sum = 0;
-//      for(let i = 0; i < numbers.length; i++) {
-//         sum = sum + numbers[i];
-//     }
+    if(numbers.length === 0) {
+        return 0;
+    } 
+    let sum = 0;
+     for(let i = 0; i < numbers.length; i++) {
+        sum = sum + numbers[i];
+    }
     
-//     return sum;
-// }
+    return sum;
+}
 
 
-function number(5, -3) {
+function number(a, b) {
 
     let sum = 0;
-    for(let i = 6; i <= 3; i++) {
+    for(let i = a; i <= b; i++) {
         sum = sum + i;
     }
-
     return sum;
-
 }
 
