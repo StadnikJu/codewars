@@ -11,7 +11,7 @@ function mergeArrays(arr1, arr2) {
 
     if(arr1.length === 0 && arr2.length === 0 ) {
         return [];
-    }
+    };
 
     let marged = arr1.concat(arr2);
     let newArr = [];
@@ -20,21 +20,20 @@ function mergeArrays(arr1, arr2) {
         if(!newArr.includes(marged[i])) {
             newArr.push(marged[i]);
         }
-    }
+    };
 
     for(let i = 0; i < newArr.length; i++) {
 
         for(let j = 0; j < newArr.length-1; j++){
             if(newArr[j] > newArr[j+1]){
-                let temp = newArr[j];
-                newArr[j] = newArr[j + 1];
-                newArr[j + 1] = temp;
+                let temp = newArr[j]; 
+                newArr[j] = newArr[j + 1]; 
+                newArr[j + 1] = temp; 
             }
         }
-    }
-
-    return newArr;
+    };
     
-}
+    return newArr; 
+};
 
 
