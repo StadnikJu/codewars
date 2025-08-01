@@ -6,21 +6,12 @@ function sum (numbers) {
     if(numbers.length === 0) {
         return 0;
     } 
+
     let sum = 0;
-     for(let i = 0; i < numbers.length; i++) {
-        sum = sum + numbers[i];
-    }
+
+        for(let i = 0; i < numbers.length; i++) {
+            sum = sum + numbers[i];
+        }
     
     return sum;
 }
-
-
-function number(a, b) {
-
-    let sum = 0;
-    for(let i = a; i <= b; i++) {
-        sum = sum + i;
-    }
-    return sum;
-}
-
