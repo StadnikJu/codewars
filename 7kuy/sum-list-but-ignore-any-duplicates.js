@@ -19,7 +19,6 @@ function sumNoDuplicates(numList) {
 
 }
 
-
 console.log(sumNoDuplicates(arr));
 
 
